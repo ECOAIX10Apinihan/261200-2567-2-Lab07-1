@@ -74,8 +74,8 @@ public class Lab07 {
         favoriteColor.put("Eve", Color.BLUE);
         favoriteColor.put("Robert", Color.BLACK);
         favoriteColor.put("Mark", Color.WHITE);
-        favoriteColor.put("John", Color.YELLOW);
-        favoriteColor.put("Jane", Color.BLUE);
+        favoriteColor.put("Pedro", Color.YELLOW);
+        favoriteColor.put("Cole", Color.BLUE);
         Set<String> keySet = favoriteColor.keySet();
         for (String key : keySet) {
             Color value = favoriteColor.get(key);
