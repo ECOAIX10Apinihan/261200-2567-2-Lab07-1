@@ -65,7 +65,7 @@ public class Lab07 {
         boxstack.push("sharpener");
         System.out.println("Original Stack: " + boxstack);
         System.out.println("Top of the stack: " + boxstack.peek());
-        System.out.println("Top of the stack: " + boxstack.pop());
+        System.out.println("Top of the stack: " + boxstack.pop() + "\n");
 
         Map<String, Color> favoriteColor = new HashMap<String, Color>();
         favoriteColor.put("Juliet", Color.BLUE);
@@ -81,13 +81,14 @@ public class Lab07 {
             Color value = favoriteColor.get(key);
             System.out.println(key + " likes " + value);
         }
-        
+
+        System.out.println("\n");
+
         Map<String, Color> favoriteeieiColor = new TreeMap<>(favoriteColor);
         Set<String> keySetTreeMap = favoriteeieiColor.keySet();
         for (String key : keySetTreeMap) {
             Color value = favoriteeieiColor.get(key);
             System.out.println(key + " likes " + value);
         }
-
     }   
 }
